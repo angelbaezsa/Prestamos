@@ -10,19 +10,16 @@ using System.Windows.Forms;
 
 namespace Proyecto_prestamos.Visual
 {
-    public partial class frmNuevoPrestamo : Form
+    public partial class frmGestionPrestamos : Form
     {
-        public frmNuevoPrestamo()
+        public frmGestionPrestamos()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            frmMenuPrincipal menuPrincipal = new frmMenuPrincipal();
-            menuPrincipal.Show();
-            this.Close();
-            
+
         }
     }
 }

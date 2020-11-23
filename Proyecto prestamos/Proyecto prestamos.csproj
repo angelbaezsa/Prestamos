@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Visual\frmGestionPrestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visual\frmGestionPrestamos.Designer.cs">
+      <DependentUpon>frmGestionPrestamos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Visual\frmMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="Visual\frmNuevoPrestamo.Designer.cs">
       <DependentUpon>frmNuevoPrestamo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Visual\frmGestionPrestamos.resx">
+      <DependentUpon>frmGestionPrestamos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Visual\frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>

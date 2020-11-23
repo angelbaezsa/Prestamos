@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNuevoPrestamo));
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -38,7 +39,7 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAprobarPRestamo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -53,18 +54,18 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Crear Prestamo";
             // 
-            // button1
+            // btnCancelar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(232, 358);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 50);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Cancelar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCancelar.BackColor = System.Drawing.Color.Red;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCancelar.Location = new System.Drawing.Point(232, 358);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(153, 50);
+            this.btnCancelar.TabIndex = 1;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -135,23 +136,24 @@
             this.numericUpDown2.Size = new System.Drawing.Size(87, 20);
             this.numericUpDown2.TabIndex = 9;
             // 
-            // button2
+            // btnAprobarPRestamo
             // 
-            this.button2.BackColor = System.Drawing.Color.Chartreuse;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(426, 358);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 50);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Aprobar Prestamo";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnAprobarPRestamo.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnAprobarPRestamo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAprobarPRestamo.Location = new System.Drawing.Point(426, 358);
+            this.btnAprobarPRestamo.Name = "btnAprobarPRestamo";
+            this.btnAprobarPRestamo.Size = new System.Drawing.Size(153, 50);
+            this.btnAprobarPRestamo.TabIndex = 10;
+            this.btnAprobarPRestamo.Text = "Aprobar Prestamo";
+            this.btnAprobarPRestamo.UseVisualStyleBackColor = false;
             // 
             // frmNuevoPrestamo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnAprobarPRestamo);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.numericUpDown1);
@@ -160,8 +162,9 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmNuevoPrestamo";
             this.Text = "Nuevo Prestamo";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -174,7 +177,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -183,6 +186,6 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAprobarPRestamo;
     }
 }

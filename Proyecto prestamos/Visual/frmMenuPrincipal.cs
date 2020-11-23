@@ -24,5 +24,23 @@ namespace Proyecto_prestamos
             nuevoCliente.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmNuevoPrestamo nuevoPrestamo = new frmNuevoPrestamo();
+            nuevoPrestamo.Show();
+            this.Hide();
+
+        }
+
+        private void btnGestionPrestamos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
