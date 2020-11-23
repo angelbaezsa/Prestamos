@@ -1,0 +1,11 @@
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\bin\Debug\Proyecto prestamos.exe.config
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\bin\Debug\Proyecto prestamos.exe
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\bin\Debug\Proyecto prestamos.pdb
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\obj\Debug\Proyecto prestamos.csprojAssemblyReference.cache
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\obj\Debug\Proyecto_prestamos.frmMenuPrincipal.resources
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\obj\Debug\Proyecto_prestamos.Properties.Resources.resources
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\obj\Debug\Proyecto_prestamos.Visual.frmNuevoCliente.resources
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\obj\Debug\Proyecto prestamos.csproj.GenerateResource.cache
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\obj\Debug\Proyecto prestamos.csproj.CoreCompileInputs.cache
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\obj\Debug\Proyecto prestamos.exe
+C:\Users\Angel Baez\Desktop\ITLA\Tercer Cuatrimestre\Programacion 1 Juan Rosario\Programa prestamos\Proyecto prestamos\obj\Debug\Proyecto prestamos.pdb

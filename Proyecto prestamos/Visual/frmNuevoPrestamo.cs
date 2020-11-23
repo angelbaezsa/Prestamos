@@ -10,23 +10,19 @@ using System.Windows.Forms;
 
 namespace Proyecto_prestamos.Visual
 {
-    public partial class frmNuevoCliente : Form
+    public partial class frmNuevoPrestamo : Form
     {
-        public frmNuevoCliente()
+        public frmNuevoPrestamo()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnCancelar_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             frmMenuPrincipal menuPrincipal = new frmMenuPrincipal();
             menuPrincipal.Show();
-            this.Close();
+            frmNuevoPrestamo nuevoPrestamo = new frmNuevoPrestamo();
+            nuevoPrestamo.Close();
         }
     }
 }

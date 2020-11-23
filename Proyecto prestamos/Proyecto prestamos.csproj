@@ -60,6 +60,12 @@
     <Compile Include="Visual\frmNuevoCliente.Designer.cs">
       <DependentUpon>frmNuevoCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Visual\frmNuevoPrestamo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visual\frmNuevoPrestamo.Designer.cs">
+      <DependentUpon>frmNuevoPrestamo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Visual\frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="Visual\frmNuevoCliente.resx">
       <DependentUpon>frmNuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual\frmNuevoPrestamo.resx">
+      <DependentUpon>frmNuevoPrestamo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
